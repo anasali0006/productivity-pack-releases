@@ -9,6 +9,12 @@ A simple, native macOS app that lives in your top menu bar and boosts your produ
 
 Everything stays on your Mac — no accounts, no cloud, no tracking.
 
+![The nudge: drift to a distracting site and your goal takes over the screen](images/nudge-overlay.png)
+
+| Focus | To-Do |
+|---|---|
+| ![Focus tab: set a goal, arm it, manage distracting sites and apps](images/focus-tab.png) | ![To-Do tab: colored categories, day navigation](images/todo-tab.png) |
+
 **Requirements:** macOS 14 (Sonoma) or newer · Apple Silicon & Intel
 
 ## Install
