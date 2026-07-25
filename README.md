@@ -19,11 +19,12 @@ Everything stays on your Mac — no accounts, no cloud, no tracking.
 
 ## Install
 
-1. Download the latest `ProductivityPack-vX.Y.Z.zip` from
-   [**Releases**](../../releases/latest) and unzip it.
-2. In Finder, drag **ProductivityPack.app** into your **Applications** folder yourself
-   (a zip doesn't show the drag-to-Applications window — that's a DMG thing).
-3. **Don't double-click it yet** — read the next section first.
+1. Download the latest `ProductivityPack-vX.Y.Z.dmg` from
+   [**Releases**](../../releases/latest) and open it.
+2. In the window that appears, drag **ProductivityPack** onto the **Applications**
+   folder.
+3. Eject the disk image, then open **ProductivityPack** from your Applications folder —
+   but read the next section first.
 
 ## First launch (important!)
 
