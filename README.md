@@ -21,33 +21,15 @@ Everything stays on your Mac — no accounts, no cloud, no tracking.
 
 ## First launch (important!)
 
-This is a test build that isn't notarized by Apple, so macOS quarantines the download
-and will refuse to open it. If you already double-clicked and got
-*"Apple could not verify…"* with only **Done** / **Move to Bin** — that's the expected
-block, not a broken app. Click **Done** (it just dismisses the dialog) and continue below.
+This is a test build that isn't notarized by Apple, so macOS blocks the first open.
+This is expected — you only do this once:
 
-**Clear the quarantine from Terminal** — type this **with the trailing space, don't
-press Enter yet**:
-
-```bash
-xattr -dr com.apple.quarantine 
-```
-
-…then **drag ProductivityPack.app from Finder into the Terminal window** (this pastes
-the app's real path, wherever it is), and press **Enter**. No output = success.
-If you get *Operation not permitted*, prepend `sudo`.
-
-Now double-click the app — it opens normally from here on.
-
-<details>
-<summary>No-Terminal alternative</summary>
-
-1. Double-click **ProductivityPack.app** → the *"could not verify"* dialog appears →
-   click **Done** (not "Move to Bin"!)
+1. Double-click **ProductivityPack.app** → a dialog says *"Apple could not verify…"*
+   with only **Done** / **Move to Bin** → click **Done** (not "Move to Bin"!).
+   Done looks like it does nothing, but it registers the app in System Settings.
 2. Open **System Settings → Privacy & Security**, scroll down to
    *"ProductivityPack was blocked…"* → click **Open Anyway**
-3. Confirm, enter your password if asked — done.
-</details>
+3. Confirm, enter your password if asked — the app opens, and normally from here on.
 
 After launching, look for the **eye icon** in your menu bar (top-right of the screen).
 
